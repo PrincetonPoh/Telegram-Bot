@@ -138,7 +138,7 @@ def posting_food(update, context):
     # craft message to post in the main chat group
 
     # this is how to post to another channel
-    # context.bot.send_message(chat_id='@neibbb123', text='SUCCESS AGAIN YES!')
+    # context.bot.send_message(chat_id='@ReplaceMe', text='SUCCESS AGAIN YES!')
 
     ud.clear()
     return ConversationHandler.END
