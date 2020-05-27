@@ -67,14 +67,14 @@ context.bot.send_message(chat_id='@ReplaceMe', text='ReplaceMe')
 
 # Stage 4
 Posting on this initiative in neighbouring HDB lift blocks to test if people will join.
-- Day 1 (3blocks): 
+- Day 1 (2blocks): 
     - 1 subscribed to channel! YAS ^^
 - Day 2 (5blocks):
-    - 4 subscribed
-- Day 3 (5blocks):
     - 7 subscribed + FIRST person who posted on the channel with the bot!! (proves that someone know how to use the bot!! YASS ^^)
-- Day 4 (7blocks):
-    - 14 subscribed + same person as previous day posted again! (proves that the free bot timing out is not too big an issue!)
+- Day 3 (9blocks):
+    - 19 subscribed + same person as previous day posted again! (proves that the free bot timing out is not too big an issue!)
+- Day 4 (10blocks):
+    - 
 
 # Known problems/issues
 1. Haven't coded the case where the telegram user has no username
