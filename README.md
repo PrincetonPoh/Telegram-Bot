@@ -72,16 +72,17 @@ Posting on this initiative in neighbouring HDB lift blocks to test if people wil
 - Day 2 (5blocks):
     - 7 subscribed + FIRST person who posted on the channel with the bot!! (proves that someone know how to use the bot!! YASS ^^)
 - Day 3 (9blocks):
-    - 19 subscribed + same person as previous day posted again! (proves that the free bot timing out is not too big an issue!)
+    - 21 subscribed + same person as previous day posted again! (proves that the free bot timing out is not too big an issue!)
 - Day 4 (10blocks):
-    - 
+    - 29 subscribed + 3 new people posted to the channel
+
 
 # Known problems/issues
-1. Haven't coded the case where the telegram user has no username
+1. Haven't coded the case where the telegram user has no username [resolved]
 2. I am unable to reply text if the function is answering a callbackquery. I am only able to edit existing text. This can be found in the what_food_r function inside main.py
 ```
 update.message.reply_text('testing message')    # this gives an error
 query.edit_message_text(text = '')              # this can only edit text
 ```
 3. If I wish to expand this, the problem of demarketing which block should be in which chat group is a challenge.
-4. Should have a way to verify credible users 
+4. Should have a way to verify credible users
