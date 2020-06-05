@@ -67,6 +67,7 @@ context.bot.send_message(chat_id='@ReplaceMe', text='ReplaceMe')
 
 # Stage 4
 Posting on this initiative in neighbouring HDB lift blocks to test if people will join.
+<img src="neighbourly%20updated.jpg" width="400">
 - Day 1 (2blocks): 
     - 1 subscribed to channel! YAS ^^
 - Day 2 (5blocks):
@@ -75,6 +76,9 @@ Posting on this initiative in neighbouring HDB lift blocks to test if people wil
     - 21 subscribed + same person as previous day posted again! (proves that the free bot timing out is not too big an issue!)
 - Day 4 (10blocks):
     - 29 subscribed + 3 new people posted to the channel
+...
+- Day 7:
+    - 40+ users! :)
 
 
 # Known problems/issues
