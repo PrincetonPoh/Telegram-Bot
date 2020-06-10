@@ -82,11 +82,12 @@ Posting on this initiative in neighbouring HDB lift blocks to test if people wil
 
 
 # Known problems/issues
-1. Haven't coded the case where the telegram user has no username [resolved]
+1. [resolved] Haven't coded the case where the telegram user has no username 
 2. I am unable to reply text if the function is answering a callbackquery. I am only able to edit existing text. This can be found in the what_food_r function inside main.py
 ```
 update.message.reply_text('testing message')    # this gives an error
 query.edit_message_text(text = '')              # this can only edit text
 ```
 3. If I wish to expand this, the problem of demarketing which block should be in which chat group is a challenge.
+- Only allow uses within a fixed radius to receive posts. Will work on this in Neighbourly 2.0!
 4. Should have a way to verify credible users
