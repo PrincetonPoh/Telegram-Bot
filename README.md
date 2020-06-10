@@ -89,5 +89,5 @@ update.message.reply_text('testing message')    # this gives an error
 query.edit_message_text(text = '')              # this can only edit text
 ```
 3. If I wish to expand this, the problem of demarketing which block should be in which chat group is a challenge.
-- Only allow uses within a fixed radius to receive posts. Will work on this in Neighbourly 2.0!
+- Only allow users within a fixed radius to receive posts. Will work on this in Neighbourly 2.0!
 4. Should have a way to verify credible users
