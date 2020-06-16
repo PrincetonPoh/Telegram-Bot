@@ -18,6 +18,12 @@ Hence, ***Neighbourly!*** A telegram bot to help people in my neighbourhood shar
     
 - Stage 4
     - Launch first version!
+    
+- Moving forward
+    - Based on results, determine if should scale this and make a Neighbourly2.0
+
+# Stage 1 & 2
+I am mostly learning as much as I can at these stages so not much to say.
 
 # Stage 3
 I split the development of the main.py file in to 3 parts.
@@ -76,18 +82,28 @@ Posting on this initiative in neighbouring HDB lift blocks to test if people wil
     - 21 subscribed + same person as previous day posted again! (proves that the free bot timing out is not too big an issue!)
 - Day 4 (10blocks):
     - 29 subscribed + 3 new people posted to the channel
-...
 - Day 7:
     - 40+ users! :)
+- Day 16:
+    - 60+ users!
+
+# Moving forward
+16 days into launching Neighbourly 1.0: I have learned a lot through this project. Seeing actual users using the platform compelled me to think more about how to scale this. My number one issue will be how to demarcate groups. For example, there can be instances where the building right beside me belongs to another telegram channel. In the end, I will have to create many channels. Instead, I asked if there is a way I can have messages only sent to those within a **certain radius** of where I stay. Hence forth, Neighbourly2.0 is born!
+
+# Neighbourly 2.0
+Main Uncertainties:
+- Can a bot send messages privately to specific users?
+- Is there a way which I can blast my message out to only those 300m from me?
+- Will my current users stick to the older platform or switch over?
+- What are the limits of Heroku, Firebase realtime database and telegram api? How does this affect user experience?
+- How do I scale (commercialisation plan)? I will have the achieve critical mass everytime beyond certain radius distance
+
+Update: I have addressed the first 4 uncertainties and launched Neighourly2.0! I have joined a team to make this more successful and so will not be disclosing too much information. Do look out for us as we strive to create a better future for everyone.
 
 
-# Known problems/issues
-1. [resolved] Haven't coded the case where the telegram user has no username 
-2. I am unable to reply text if the function is answering a callbackquery. I am only able to edit existing text. This can be found in the what_food_r function inside main.py
+# Known minor problems/issues
+1. (telegram api) I am unable to reply text if the function is answering a callbackquery. I am only able to edit existing text. This can be found in the what_food_r function inside main.py
 ```
 update.message.reply_text('testing message')    # this gives an error
 query.edit_message_text(text = '')              # this can only edit text
 ```
-3. If I wish to expand this, the problem of demarketing which block should be in which chat group is a challenge.
-- Only allow users within a fixed radius to receive posts. Will work on this in Neighbourly 2.0!
-4. Should have a way to verify credible users
